@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>servay form</title>
+
+    <style>
+
+        *{
+            text-transform: capitalize;
+            font-family: Verdana;
+        }
+        body{
+            
+            background-color:  #05c46b;
+        }
+
+        .ha{
+            text-transform: capitalize;
+            text-align: center;
+
+        }
+
+        form{
+            background-color: #fff;
+			width: 500px;
+			margin: 75px auto;
+			padding: 30px 20px;
+            box-shadow: 2px 5px 10px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        #name,#email,#age,#role,#textarea{
+
+            width: 95%;
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+
+
+       
+        .sub{
+            width: 95%;
+            padding: 10px;
+            border-radius: 5px;
+           background-color: #05c46b;
+        }
+
+      
+      
+
+
+ 
+    </style>
+</head>
+<body>
+
+  
+
+    <h1 class="ha">  alfahad servay form</h1>
+
+    <form action="">
+
+
+    <div class="main">
+
+        <label for="name">name</label> <br> 
+        <input type="text" name="name" id="name" required placeholder="name">  <br> <br>
+
+
+        <label for="email">email</label>
+        <br>
+        <input type="email" name="email" id="email" required  placeholder="mail id"> <br> <br>
+
+
+        <label for="age">age</label> 
+        <br>
+        <input type="number" name="age" id="age" required placeholder="age"> <br><br> 
+
+
+
+         <!-- ************************** option ************************* -->
+
+        <div class="optionbutton">
+
+
+        <label for="op">Which option best describes you? </label>
+        <br> <br>
+
+        <select name="role" id="role">
+            <option value="student">Student</option>
+            <option value="intern">Intern</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+
+        </select> </div>  <br><br>
+
+
+
+
+        <!-- ************************** radio************************* -->
+
+        <div class="radiobutton">
+
+
+        <label for="choose">Would you recommend alfahad ansari to a friend?</label>
+        <br> <br>
+        <label for="rec1">
+            <input type="radio" name="yes">yes</input>
+        </label>  <br>
+
+        <label for="rec2">
+            <input type="radio" name="yes">no</input>
+        </label>  <br>
+
+        <label for="rec3">
+            <input type="radio" name="yes">maybe</input>
+        </label>  <br> <br><br>
+
+    </div>
+
+
+
+
+    
+        <!-- ************************** checkbox************************* -->
+
+    <div>
+
+        <label>Languages and Frameworks known <small> (Check all that apply) </small> </label>
+        <br> <br>
+
+        <label for="inp-1">
+				<input type="checkbox"
+					name="inp">C</input></label>
+                    <br>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">C++</input></label>
+                    <br>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">C#</input></label>
+                    <br>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">Java</input></label>
+                    <br>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">Python</input></label>
+                    <br>
+			<label for="inp-6">
+				<input type="checkbox"
+					name="inp">JavaScript</input></label>
+                    <br>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">React</input></label>
+                    <br>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Angular</input></label>
+                    <br>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Django</input></label>
+                    <br>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Spring</input></label>
+                    <br>
+
+
+    </div> <br><br>
+
+
+
+    <label for="">Any comments or suggestions</label> <br> <br>
+
+    <textarea name="comment" id="textarea" placeholder="Enter your comment here">  </textarea>  <br> <br><br>
+
+
+
+    <a href="t.me/alfahad_ansari"><input type="submit" name="submit " class="sub"></a>
+
+
+
+
+
+    </div>
+
+
+
+
+
+</form>
+</body>
+</html>
